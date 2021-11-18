@@ -18,7 +18,7 @@
     "dependencies":
     {
         "typeson": "6.1.0",
-        "typeson-registry": "1.0.0-alpha.39",
+        "typeson-registry": "1.0.0-alpha.39"
     },
     "devDependencies":
     {
