@@ -1,33 +1,32 @@
 {
-    "name":                 "verbatim",
-    "version":              "0.1.8",
-    "description":
-
-      "JavaScript serialization of typed objects with cyclical references.",
-
+    "name": "verbatim",
+    "version": "0.1.8",
+    "description": "JavaScript serialization of typed objects with cyclical references.",
     "keywords":
     [
-                            "serialization", "javascript", "cyclical", "binary"
+        "serialization", "javascript", "cyclical", "binary"
     ],
-    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
-    "homepage":             "https://github.com/bigeasy/verbatim",
-    "bugs":                 "https://github.com/bigeasy/verbatim/issues",
-    "license":              "MIT",
+    "author": "Alan Gutierrez <alan@prettyrobots.com>",
+    "homepage": "https://github.com/bigeasy/verbatim",
+    "bugs": "https://github.com/bigeasy/verbatim/issues",
+    "license": "MIT",
     "repository":
     {
-                            "type": "git",
-                            "url": "bigeasy/verbatim"
+        "type": "git",
+        "url": "bigeasy/verbatim"
     },
     "dependencies":
     {
+        "typeson": "6.1.0",
+        "typeson-registry": "1.0.0-alpha.39",
     },
     "devDependencies":
     {
-                            "proof":                        "^9.0.2"
+        "proof": "^9.0.2"
     },
-    "main":                 "verbatim",
+    "main": "verbatim",
     "scripts":
     {
-                            "test": "proof test/*.t.js"
+        "test": "proof test/*.t.js"
     }
 }
